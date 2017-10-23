@@ -45,6 +45,10 @@ public class AesTest {
 		 * 加密数据
 		 */
 		byte[] result = cipher.doFinal(byteContent);
+		
+		/**
+		 * 解密？？
+		 */
 	}
 	
 }
