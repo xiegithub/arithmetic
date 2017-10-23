@@ -45,9 +45,6 @@ public class AesTest {
 		 * ¼ÓÃÜÊı¾İ
 		 */
 		byte[] result = cipher.doFinal(byteContent);
-		
-		String xxx = new String(result);
-		System.out.println(xxx);
 	}
 	
 }
